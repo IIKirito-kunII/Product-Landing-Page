@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Original Cameras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <header id="header" class="container">
+            <div class="img-div">
+                <img src="https://imgs.search.brave.com/117K5KoXuy-m_WDml2URlHBuvIEBKqG2xx7AAJ1M6oo/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/aWNvbnNjb3V0LmNv/bS9pY29uL2ZyZWUv/cG5nLTI1Ni9mcmVl/LWFwcGxlLWNhbWVy/YS00OTMxNDcucG5n/P2Y9d2VicCZ3PTI1/Ng"
+                    alt="Original Cameras" id="header-img">
+                <h2><a href="#">Original Cameras</a></h2>
+            </div>
+            <nav id="nav-bar">
+                <ul class="sidebar">
+                    <li onclick=hideSidebar()><a href="#">Close-Menu</a></li>
+                    <li><a href="#Features" class="nav-link">Features</a></li>
+                    <li><a href="#How-It-Works" class="nav-link">How It Works</a></li>
+                    <li><a href="#Pricing" class="nav-link">Pricing</a></li>
+                </ul>
+                <ul>
+                    <li class="hideOnMobile"><a href="#Features" class="nav-link">Features</a></li>
+                    <li class="hideOnMobile"><a href="#How-It-Works" class="nav-link">How It Works</a></li>
+                    <li class="hideOnMobile"><a href="#Pricing" class="nav-link">Pricing</a></li>
+                    <li class="menu" onclick=showSidebar()><a href="#">Menu</a></li>
+                </ul>
+            </nav>
+            <script>
+                function showSidebar() {
+                    var sidebar = document.querySelector('.sidebar');
+                    sidebar.style.display = 'flex'
+                }
+                function hideSidebar() {
+                    var sidebar = document.querySelector('.sidebar');
+                    sidebar.style.display = 'none'
+                }
+            </script>
+        </header>
+
+        <section id="hero">
+            <h1>[ Camera Masterpieces ]</h1>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input name="email" id="email" type="email" placeholder="Enter your email address" required />
+                <input id="submit" type="submit" value="Get Started" class="btn" />
+            </form>
+        </section>
+
+        <section id="Features">
+            <div class="feature">
+                <h3>Feature 1</h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, magni quis temporibus commodi
+                    at repudiandae laudantium totam voluptatem eius quos consequatur repellendus nulla nesciunt ab
+                    magnam sapiente quidem quo. Voluptates!
+                </p>
+            </div>
+            <div class="feature">
+                <h3>Feature 2</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet sunt dignissimos quaerat dolore
+                    assumenda rem sint nostrum iste eius. Harum id nemo quos cum, repellat delectus nesciunt? Similique,
+                    ad provident.
+                </p>
+            </div>
+        </section>
+
+        <section id="How-It-Works">
+            <iframe id="video" height="315"
+                src="https://www.youtube.com/embed/CDQCybLjAI4?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0"
+                allowfullscreen></iframe>
+        </section>
+
+        <section id="Pricing">
+            <div class="price">
+                <h3>Camera 4.2</h3>
+                <h1>$600</h1>
+                <p>Lorem ipsum.</p>
+                <p>Lorem ipsum.</p>
+                <p>Lorem ipsum dolor.
+                </p>
+                <p>Lorem ipsum.</p>
+                <button class="btn">Select</button>
+            </div>
+            <div class="price">
+                <h3>Camera 4.3</h3>
+                <h1>$900</h1>
+                <p>Lorem ipsum.</p>
+                <p>Lorem ipsum.</p>
+                <p>Lorem ipsum dolor.
+                </p>
+                <p>Lorem ipsum.</p>
+                <button class="btn">Select</button>
+            </div>
+            <div class="price">
+                <h3>Camera 4.4</h3>
+                <h1>$1200</h1>
+                <p>Lorem ipsum.</p>
+                <p>Lorem ipsum.</p>
+                <p>Lorem ipsum dolor.
+                </p>
+                <p>Lorem ipsum.</p>
+                <button class="btn">Select</button>
+            </div>
+        </section>
+
+        <footer>
+            <ul>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <span>Enjoy Your Brand New Camera</span>
+        </footer>
+
+        <div class="bubbles">
+            <img src="https://imgs.search.brave.com/Dj3G_MmAQbKFbl1eCM2SFfrOI3heMpWJHcWTNEpyZOM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuc3RpY2twbmcu/Y29tL2ltYWdlcy81/ODBiNTg1YjJlZGJj/ZTI0YzQ3YjI3MzMu/cG5n"
+                alt="Bubble">
+            <img src="https://imgs.search.brave.com/Dj3G_MmAQbKFbl1eCM2SFfrOI3heMpWJHcWTNEpyZOM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuc3RpY2twbmcu/Y29tL2ltYWdlcy81/ODBiNTg1YjJlZGJj/ZTI0YzQ3YjI3MzMu/cG5n"
+                alt="Bubble">
+            <img src="https://imgs.search.brave.com/Dj3G_MmAQbKFbl1eCM2SFfrOI3heMpWJHcWTNEpyZOM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuc3RpY2twbmcu/Y29tL2ltYWdlcy81/ODBiNTg1YjJlZGJj/ZTI0YzQ3YjI3MzMu/cG5n"
+                alt="Bubble">
+            <img src="https://imgs.search.brave.com/Dj3G_MmAQbKFbl1eCM2SFfrOI3heMpWJHcWTNEpyZOM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuc3RpY2twbmcu/Y29tL2ltYWdlcy81/ODBiNTg1YjJlZGJj/ZTI0YzQ3YjI3MzMu/cG5n"
+                alt="Bubble">
+            <img src="https://imgs.search.brave.com/Dj3G_MmAQbKFbl1eCM2SFfrOI3heMpWJHcWTNEpyZOM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuc3RpY2twbmcu/Y29tL2ltYWdlcy81/ODBiNTg1YjJlZGJj/ZTI0YzQ3YjI3MzMu/cG5n"
+                alt="Bubble">
+            <img src="https://imgs.search.brave.com/Dj3G_MmAQbKFbl1eCM2SFfrOI3heMpWJHcWTNEpyZOM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuc3RpY2twbmcu/Y29tL2ltYWdlcy81/ODBiNTg1YjJlZGJj/ZTI0YzQ3YjI3MzMu/cG5n"
+                alt="Bubble">
+            <img src="https://imgs.search.brave.com/Dj3G_MmAQbKFbl1eCM2SFfrOI3heMpWJHcWTNEpyZOM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuc3RpY2twbmcu/Y29tL2ltYWdlcy81/ODBiNTg1YjJlZGJj/ZTI0YzQ3YjI3MzMu/cG5n"
+                alt="Bubble">
+        </div>
+    </div>
+</body>
+
+</html>
